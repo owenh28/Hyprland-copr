@@ -1,6 +1,6 @@
 Name: hyprland
 Version: v0.22.0beta
-Release: 1%{?dist}
+Release: 13%{?dist}
 License: BSD
 Summary: A dynamic tiling Wayland compositor that doesn't sacrifice on its looks.
 Url: https://github.com/hyprwm/Hyprland
@@ -189,7 +189,7 @@ VERBOSE=1 ninja -C _build/ install
 %{_includedir}/wlr/xwayland/xwayland.h
 
 %changelog
-* Fri Feb 24 2023 Owen Harlacker
+* Fri Feb 24 2023 Owen Harlacker v0.22.0beta-13
 - Push New Version
 
 * Sun Jan 29 2023 Bader Zaidan <bader@zaidan.tech> v0.21.0beta-12
